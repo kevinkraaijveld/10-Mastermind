@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Mastermind</title>
+         <link rel="stylesheet" href="stylesheet.css">
+         <meta charset="UTF-8">
+    </head>
+    <body>
+  <div class="won">
+      <div class="won-message">
+        <h1>Gefeliciteerd, je hebt gewonnen!!</h1>
+      </div>
+  </div>
+    <main>
+      <div class="board">
+        <div class="answer-conainer flexer">
+          <div class="answer-box">
+            <div class="answer">
+            </div>
+          </div>
+          <div class="button-container">
+            <div class="submit-button">
+              <h3 class="text">Controleer</h3>
+            </div>
+          </div>
+        </div>
+        <div class="peg-conainer">
+          <div class="peg-row flexer">
+            <div class="code-pegs flexer">
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+            </div>
+              <div class="score-pegs flexer">
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+              </div>
+          </div>
+          <div class="peg-row flexer">
+            <div class="code-pegs flexer">
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+            </div>
+              <div class="score-pegs flexer">
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+              </div>
+          </div>
+          <div class="peg-row flexer">
+            <div class="code-pegs flexer">
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+            </div>
+              <div class="score-pegs flexer">
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+              </div>
+          </div>
+          <div class="peg-row flexer">
+            <div class="code-pegs flexer">
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+            </div>
+              <div class="score-pegs flexer">
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+              </div>
+          </div>
+          <div class="peg-row flexer">
+            <div class="code-pegs flexer">
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+            </div>
+              <div class="score-pegs flexer">
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+              </div>
+          </div>
+          <div class="peg-row flexer">
+            <div class="code-pegs flexer">
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+            </div>
+              <div class="score-pegs flexer">
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+              </div>
+          </div>
+          <div class="peg-row flexer">
+            <div class="code-pegs flexer">
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+            </div>
+              <div class="score-pegs flexer">
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+              </div>
+          </div>
+          <div class="peg-row flexer">
+            <div class="code-pegs flexer">
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+            </div>
+              <div class="score-pegs flexer">
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+              </div>
+          </div>
+          <div class="peg-row flexer">
+            <div class="code-pegs flexer">
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+              <div class="code-peg">
+              </div>
+            </div>
+              <div class="score-pegs flexer">
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+              </div>
+          </div>
+          <div class="peg-row flexer">
+            <div class="code-pegs flexer">
+              <div class="code-peg active">
+              </div>
+              <div class="code-peg active">
+              </div>
+              <div class="code-peg active">
+              </div>
+              <div class="code-peg active">
+              </div>
+            </div>
+              <div class="score-pegs flexer first-grade">
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+                <div class="score-peg">
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="selection-conainer">
+          <div class="selector-outer">
+            <div class="selector-inner red"></div>
+          </div>
+          <div class="selector-outer">
+            <div class="selector-inner green"></div>
+          </div>
+          <div class="selector-outer">
+            <div class="selector-inner yellow"></div>
+          </div>
+          <div class="selector-outer">
+            <div class="selector-inner purple"></div>
+          </div>
+          <div class="selector-outer">
+            <div class="selector-inner white"></div>
+          </div>
+          <div class="selector-outer">
+            <div class="selector-inner orange"></div>
+          </div>
+        </div>
+      </div>
+      <div class="regels">
+      <h2>Regels</h2>
+      <p>Je moet de geheime code in zo min mogelijk pogingen breken. Je hebt maximaal 10
+        kansen om de code van je tegenstander na te maken – d.w.z. de juiste kleuren in de
+        juiste volgorde te raden.</p>
+        <p>De code bestaat uit 4 code-pinnetjes in iedere gewenste combinatie van de 6 kleuren.
+          Je mag 2 of meer pinnetjes vandezelfde kleur gebruiken.</p>
+          <p>Een <b>zwart scorepinnetje</b> betekent dat je een juiste kleur op de juiste plaats  hebt gezet.</br>
+          Een <b>wit scorepinnetje</b> betekent dat je een goede kleur hebt gebruikt maar op een verkeerde plaats.</p>
+        <p></p>
+      </div>
+    </main>
+    <br><br>
+    <footer>
+      <p>Kevin Kraaijveld</p>
+      <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="mastermind.js"></script>
+    </footer>
+</body>
+</html>

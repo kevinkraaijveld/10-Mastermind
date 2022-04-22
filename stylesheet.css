@@ -1,0 +1,246 @@
+/*  Kevin Kraaijveld CSS Mastermind
+============================================================================
+
+1. Algemene CSS
+2. CONTENT BLOCKS
+3. Overige CSS
+
+============================================================================ */
+
+/*
+#006 donkerblauw
+#00f lichtblauw (standaard)
+#00c middeblauw
+
+#18b500 lichtgroen
+#1ab203 middegroen
+#178c05 donkergroen
+
+#af7001 lichtbruin
+#825406 middenbruin
+#634008 donkerbuin
+*/
+
+
+/* 1. Algemene CSS
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+body{
+  margin: 0;
+  padding:0;
+  background: linear-gradient(#18b500,#808080);
+}
+
+.board{
+  width: 30%;
+  min-width: 400px;
+  height: 89.5vh;
+  margin: 1% 20%;
+  background: linear-gradient(#af7001,#825406);
+  box-shadow: 10px 10px 15px #000;
+}
+
+.regels{
+  position: fixed;
+  top: 10%;
+  right: 8%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 30%;
+  height: 70%;
+}
+
+/* 2. CONTENT BLOCKS
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.flexer{
+  display: flex;
+}
+
+.won{
+  position:fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  height:100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align:center;
+  display:none;
+}
+.won-message{
+    width: 40%;
+    height: 7.5%;
+    margin: 15.3% 16%;
+    background-color: rgba(94, 94, 94, 0.8);
+}
+
+/*    answer-conainer
+---------------------------------------------------------------------------- */
+.answer-conainer{
+  width:100%;
+  height: 10%;
+  padding-top: 2%;
+}
+
+.answer-box{
+  width:70%;
+  height:100%;
+}
+
+.answer{
+  width:70%;
+  height:80%;
+  border:1px solid black;
+  margin:0 auto;
+  background:linear-gradient(#825406,#af7001);
+  box-shadow:2px 0px 4px white;
+}
+
+.button-container{
+  width:30%;
+  height: 100%;
+}
+
+.submit-button{
+  width:85%;
+  height:80%;
+  background-color:#808080;
+  margin:auto;
+  text-align:center;
+  line-height:250%;
+  box-shadow:2px 2px 4px white;
+}
+.submit-button:hover{
+  color:#f2f2f2;
+  background-color:#565454;
+  box-shadow:2px 2px 4px black;
+}
+
+.text{
+  margin:0 auto;
+
+}
+/*    peg-conainer
+---------------------------------------------------------------------------- */
+.peg-conainer{
+  width:100%;
+  height:86%;
+}
+.peg-row{
+  box-sizing:border-box;
+  height:9%;
+  width:100%;
+  border-bottom:1px solid #634008;
+  padding-bottom:5px;
+  margin-bottom:5px;
+}
+
+.code-pegs{
+  height:100%;
+  width:77%;
+  padding:0 5%;
+}
+.code-peg{
+  width:19%;
+  height:95%;
+  border:1px solid white;
+  border-radius:50%;
+  margin-left:10%;
+  background:linear-gradient(#825406 , #634008);
+  box-shadow: 1px 1px 4px #fff;
+}
+
+.score-pegs{
+  height:100%;
+  width:30%;
+  flex-wrap:wrap;
+  padding:0 5%;
+}
+.score-peg{
+  box-sizing:border-box;
+  width:23.5%;
+  height:48.5%;
+  border:1px solid black;
+  border-radius:50%;
+  margin:1% 5%;
+  background:linear-gradient(#825406 , #634008);
+      box-shadow: 1px 1px 4px #000;
+}
+
+/*   selection-conainer
+---------------------------------------------------------------------------- */
+.selection-conainer{
+  position: fixed;
+  top: 10%;
+  left: 7%;
+  padding: 15px;
+  background: linear-gradient(#af7001,#825406);
+  box-shadow: 10px 10px 15px #000;
+}
+
+.selector-outer{
+  box-sizing:border-box;
+  width: 50px;
+  height: 50px;
+  margin:0 1px;
+  border:1px solid black;
+  border-radius:50%;
+  background-color: ;
+}
+.selector-outer:hover{
+  border:1px solid white;
+}
+
+.selector-inner{
+box-sizing: border-box;
+width: 85%;
+height: 85%;
+border: 1px solid black;
+border-radius: 50%;
+margin: 3px;
+margin-left: 3.5px;
+}
+
+.red{
+  background-color:red;
+}
+.green{
+  background-color:green;
+}
+.yellow{
+  background-color:yellow;
+}
+.purple{
+  background-color:purple;
+}
+.white{
+  background-color:white;
+}
+.orange{
+  background-color:orange;
+}
+
+/* 4. Overige CSS
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+footer{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+		color:#fff;
+		transition:0.4s ease;
+}
+footer:hover{
+    bottom:15px;
+}
+
+@media screen and (max-width:1070px){
+  .board{
+    margin: 1% auto;}
+  .regels{
+    display: none;
+  }
+  .won-message{
+      margin: 15% auto;
+    }
+}
+
+/*Made by Kevin Kraaijveld*/
