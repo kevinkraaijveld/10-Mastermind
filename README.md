@@ -42,3 +42,6 @@ Het spel moet aan de volgende technische eisen voldoen:
 ### Bonus
 * Het gehele spel is gemaakt door gebruik te maken van javascript objecten.
 * Bij de start van een spel kan de speler kiezen hoeveel plaatsen en verschillende kleuren gebruikt worden.
+
+### Bekijk opdracht
+[Mastrmind](https://www.kevii.nl/opdrachten/10-mastermind/mastermind.html)
