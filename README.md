@@ -44,4 +44,4 @@ Het spel moet aan de volgende technische eisen voldoen:
 * Bij de start van een spel kan de speler kiezen hoeveel plaatsen en verschillende kleuren gebruikt worden.
 
 ### Bekijk opdracht 
-[Mastrmind](https://www.kevii.nl/opdrachten/10-mastermind/mastermind.html)
+[Mastrmind](https://kevin.webprofit.site/opdrachten/10-mastermind/mastermind.html)
